@@ -1,0 +1,1 @@
+C:\Users\bearg\OneDrive\Desktop\rust-practise\21se17\pascal\target\debug\pascal.exe: C:\Users\bearg\OneDrive\Desktop\rust-practise\21se17\pascal\src\main.rs C:\Users\bearg\OneDrive\Desktop\rust-practise\21se17\pascal\src\pascal.rs
