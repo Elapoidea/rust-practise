@@ -1,12 +1,15 @@
+mod utils;
 mod number;
 mod calculator;
 
 fn main() {
-    let run_fn = std::env::args().nth(1).expect("run function not found");
-    let operation = run_fn.trim();
-    let mut x = calculator::Calc::new((20, 0));
+    let mut x = calculator::Calc::new((0, 0));
 
-    x.cmd(operation);
+    loop {
+        let operation = utils::get_input(Some(" cmd   > "));
 
-    println!("{:?}, {}", x.x, operation)
+        x.cmd(&operation);
+
+        println!(" ^ {:?}\n", x.x)
+    }
 }
