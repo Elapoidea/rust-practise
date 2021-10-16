@@ -1,0 +1,1 @@
+/home/dea/rust-practise/challenge-04/cellular/target/debug/cellular: /home/dea/rust-practise/challenge-04/cellular/src/automata.rs /home/dea/rust-practise/challenge-04/cellular/src/main.rs /home/dea/rust-practise/challenge-04/cellular/src/space.rs
